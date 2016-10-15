@@ -1,4 +1,4 @@
-from basic_learning_20160830_V1.multi_function.extraFunctions import
+from basic_learning_20160830_V1.multi_function.extraFunctions import adding
 
 def function1():
     a =1
@@ -10,5 +10,5 @@ def main(d):
     return b
 
 q = main(5)
-q = q +
+q = q + adding(q,2)
 print ("main",q)
